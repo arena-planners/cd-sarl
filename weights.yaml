@@ -1,0 +1,4 @@
+files:
+  - repo: arena-rosnav/cd-sarl
+    filename: rl_model.pth
+    dest: model/rl_model.pth

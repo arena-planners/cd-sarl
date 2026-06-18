@@ -1,0 +1,17 @@
+[project]
+name = "arena_planners_cd_sarl"
+version = "0.0.0"
+description = "CD-SARL (curriculum + diverse-dynamics SARL) planner adapter for the arena_planners bridge."
+requires-python = ">=3.10"
+dependencies = [
+    "arena_planners",
+    "torch>=2.2,<2.3",
+    "numpy<2",
+]
+
+[tool.uv.sources]
+arena_planners = { git = "https://github.com/arena-planners/arena_planners.git", branch = "jazzy", subdirectory = "arena_planners" }
+
+[tool.setuptools]
+packages = []
+py-modules = []
