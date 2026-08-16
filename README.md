@@ -12,7 +12,7 @@ and its training config (`configs/policy.config`, copied from `sarl_curr_div`).
 ## Run
 
 ```sh
-arena launch mobile:=drl mobile.planner:=cd-sarl
+arena launch robot.mobile:=drl robot.mobile.planner:=cd-sarl
 ```
 
 Requires a global plan. Defaults to `nav2/navfn`.
