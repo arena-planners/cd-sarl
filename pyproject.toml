@@ -5,7 +5,7 @@ description = "CD-SARL (curriculum + diverse-dynamics SARL) planner adapter for 
 requires-python = ">=3.10"
 dependencies = [
     "arena_planners",
-    "torch>=2.2,<2.3",
+    "torch>=2.14,<2.15",
     "numpy<2",
 ]
 
